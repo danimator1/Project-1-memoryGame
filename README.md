@@ -13,3 +13,6 @@ Memory Card presents players with 16 randomly arranged cards on the screen, with
 * **Implement JavaScript Logic**: Use JavaScript to add interactivity to your game. Incorporate event listeners to detect when cards are clicked, and implement logic to check for matching pairs.
 * **Test and Refine**: Test your game thoroughly to ensure all functionalities work as intended. Make adjustments as needed to improve the user experience.
 * **Practice JavaScript Concepts**: Throughout the development process, leverage JavaScript concepts such as event handling, loops, arrays, and more to enhance your coding skills.
+
+
+![alt text](MemoryCardGame.drawio.png)
