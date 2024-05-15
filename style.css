@@ -1,0 +1,104 @@
+body {
+    background: url("./vecteezy_lightning-yellow-mouse-background_24993881-1.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* .container {
+    position: 30%;
+    width: 30%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .foreground-image {
+    position: absolute;
+    top: 30%; 
+    left: 500%; 
+    width: 60%;
+    max-width: 450px;
+    height: auto;
+    background-image: url('./pokeball-logo-DC23868CA1-seeklogo.com.png');
+    background-size: contain;
+  } */
+
+#board{
+    height: 90%;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    border: 1vw solid yellow;
+    border-radius: 2%;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%; 
+    max-width: 90px; 
+    margin: 1%; 
+    aspect-ratio: 7 / 10; /* Set aspect ratio (width / height) */
+}
+
+#errors {
+    color:white;
+}
+
+h1 {
+    display: grid;
+    place-items: center;
+  }
+
+h1 img {
+    height: auto;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 6vw;
+    color: white;
+    margin: 0; 
+    padding: 0; 
+    /* text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;  */
+  }
+  
+  
+
+h3 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  px 0 #000; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .foreground-image {
+        top: -20%;
+        left: -10%;
+        width: 80%;
+    }
+
+    #board {
+        width: 95%;
+        max-width: none;
+    }
+
+    .card {
+        width: 45%;
+        max-width: none;
+    }
+}
