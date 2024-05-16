@@ -125,3 +125,6 @@ function update() {
 function refreshPage() {
     location.reload();
 }
+
+
+
